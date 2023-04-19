@@ -1,0 +1,94 @@
+{
+  "name": "fca-horizon-tvt",
+  "version": "31.40.12",
+  "description": "Facebook Chat Api Được Remake Bới Horizon Chống Get (available) Và Pay Acc (whynot?)",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "./node_modules/.bin/eslint **.js",
+    "prettier": "prettier utils.js src/* --write"
+  },
+  "author": "Avery, David, Maude, Benjamin, KanzuWakazaki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tvth4k/fcahorizon/issues"
+  },
+  "homepage": "https://github.com/tvth4k/fcahorizon#readme",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tvth4k/fcahorizon.git"
+  },
+  "dependencies": {
+    "aes-js": "latest",
+    "assert": "latest",
+    "bluebird": "latest",
+    "chalk": "4.1.2",
+    "cheerio": "latest",
+    "crypto": "latest",
+    "crypto-js": "latest",
+    "express": "latest",
+    "got": "^11.8.3",
+    "horizon-sp": "github:tvth4k/h-sp",
+    "https-proxy-agent": "latest",
+    "is-hexcolor": "^1.0.0",
+    "jsdom": "^20.0.3",
+    "lodash": "",
+    "mqtt": "latest",
+    "npmlog": "latest",
+    "os": "latest",
+    "path": "latest",
+    "playwright": "^1.29.1",
+    "pretty-ms": "7.0.1",
+    "readline": "latest",
+    "request": "latest",
+    "synthetic-horizon-database": "github:tvth4k/synthetic-h-database",
+    "totp-generator": "latest",
+    "uuid-apikey": "latest",
+    "webshot": "^0.18.0",
+    "webshot-node": "^0.18.3",
+    "websocket-stream": "latest",
+    "file-url": "^3.0.0",
+    "puppeteer": "^19.2.2",
+    "tough-cookie": "^4.1.2"
+  },
+  "engines": {
+    "node": ">=14.x <16.x"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "mocha": "latest",
+    "prettier": "latest"
+  },
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "sourceType": "module"
+    },
+    "rules": {
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "no-unused-vars": [
+        1,
+        {
+          "argsIgnorePattern": "^_"
+        }
+      ]
+    }
+  },
+  "keywords": [
+    "Fca horizon",
+    "fca-horizon-tvt",
+    "horizon fca",
+    "horizon"
+  ]
+}
