@@ -38,11 +38,11 @@ global.Fca = new Object({
     Data: new Object({
         ObjFastConfig: {
             "Language": "vi",
-            "PreKey": "",
+            "PreKey": "tuantvt",
             "AutoUpdate": true,
             "MainColor": "#9900FF",
             "MainName": "[ FCA-HZI ]",
-            "Uptime": false,
+            "Uptime": true,
             "Config": "default",
             "Login2Fa": false,
             "AutoLogin": false,
@@ -52,7 +52,7 @@ global.Fca = new Object({
             "ResetDataLogin": false,
             "AutoRestartMinutes": 0,
             "HTML": {   
-                "HTML": true,
+                "HTML": false,
                 "UserName": "Guest",
                 "MusicLink": "https://drive.google.com/uc?id=1zlAALlxk1TnO7jXtEP_O6yvemtzA2ukA&export=download"
             }   
