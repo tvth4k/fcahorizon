@@ -39,7 +39,7 @@ global.Fca = new Object({
         ObjFastConfig: {
             "Language": "vi",
             "PreKey": "tuantvt",
-            "AutoUpdate": true,
+            "AutoUpdate": false,
             "MainColor": "#9900FF",
             "MainName": "[ FCA-HZI ]",
             "Uptime": true,
